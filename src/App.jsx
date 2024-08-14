@@ -1,14 +1,50 @@
+import React, { useState, useEffect, useRef } from "react";
+import Cipher from "./Cipher";
 import "./App.css";
-import Header from "./Header/Header";
-import Hero from "./Hero/Hero";
 
-function App() {
+const App = () => {
+  const [showVideo, setShowVideo] = useState(true);
+  const [isMuted, setIsMuted] = useState(true);
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowVideo(false);
+    }, 4000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  const handleUnmute = () => {
+    if (videoRef.current) {
+      videoRef.current.muted = false;
+      setIsMuted(false);
+      videoRef.current.play(); // Restart the video to play with sound
+    }
+  };
+
   return (
-    <>
-      <Header></Header>
-      <Hero></Hero>
-    </>
+    <div>
+      {showVideo ? (
+        <div className="video-container">
+          <video
+            ref={videoRef}
+            autoPlay
+            muted={isMuted}
+            onEnded={() => setShowVideo(false)}
+          >
+            <source src="q.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          {isMuted && <button onClick={handleUnmute}>Unmute</button>}
+        </div>
+      ) : (
+        <div className="main-content">
+          <Cipher />
+        </div>
+      )}
+    </div>
   );
-}
+};
 
 export default App;

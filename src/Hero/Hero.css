@@ -1,0 +1,25 @@
+.hemain{
+  width: 100%;
+  height: 96vh;
+  display: flex;
+}
+.righthero{
+  width: 50%;
+  
+}
+.righthero img{
+  width: 100%;
+  margin-left: -20px;
+}
+.lehero{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.lehero p {
+width: 80%;
+}

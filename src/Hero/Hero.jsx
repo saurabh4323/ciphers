@@ -1,6 +1,8 @@
 import React from "react";
+import { useRef } from "react";
 import "./Hero.css";
 const Hero = () => {
+  const constraintsRef = useRef(null);
   return (
     <div className="hemain">
       <div className="lehero">

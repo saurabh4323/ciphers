@@ -4,20 +4,17 @@
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  
-
 }
 
 .col{
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
   gap: 30px;
-
 }
+
 .col h1{
   text-align: center;
   font-size: 34px;
@@ -29,15 +26,14 @@
 }
 
 .card img{
-  width:800px ;
+  width: 800px;
   height: 600px;
-
 }
-.card{
- 
 
+.card{
   border: 1px solid #fff;
 }
+
 @keyframes fadeIn {
   0% {
     opacity: 0.4;
@@ -46,5 +42,13 @@
   100% {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+/* Corrected media query */
+@media (max-width: 600px) {
+  .card img{
+    width: 400px;
+    height: 300px;
   }
 }

@@ -3,7 +3,8 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background-color: #fff;
+  margin-top: -90px;
+  /* background-color: #fff; */
  
 }
 
@@ -30,8 +31,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #fff;
-  border: 1px solid #03c4ff;
+  /* background-color: #fff; */
+  border: 1px solid #fff;
   border-radius: 8px;
   padding: 20px;
 
@@ -59,7 +60,7 @@
 
 .about-card h2 {
   font-weight: 700;
-  color: #000;
+  color: #fff;
   font-style: italic;
   margin-top: 15px;
 }
@@ -68,14 +69,14 @@
 }
 
 .about-card p {
-  color: #999999;
+  color: aliceblue;
   text-align: center;
   margin-top: 10px;
 }
 
 .about-pa {
-  background-color: #fff;
-  color: #7e7b7b;
+  /* background-color: #fff; */
+  color: #fff;
   text-align: center !important;
   width: 100%;
   margin-top: 50px;

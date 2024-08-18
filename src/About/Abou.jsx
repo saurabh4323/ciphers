@@ -1,14 +1,47 @@
 import React from "react";
+import { motion } from "framer-motion";
 import "./a.css";
+
 const Abou = () => {
+  const cardVariants = {
+    hidden: { opacity: 0, y: 50 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.5, type: "spring", stiffness: 300 },
+    },
+  };
+
+  const textVariants = {
+    hidden: { opacity: 0, x: -50 },
+    visible: {
+      opacity: 1,
+      x: 0,
+      transition: { duration: 0.5, ease: "easeOut" },
+    },
+  };
+
   return (
     <div className="about-page">
-      <h1>Cyber Security</h1>
+      <motion.h1
+        variants={textVariants}
+        initial="hidden"
+        animate="visible"
+        transition={{ delay: 0.2, duration: 1, ease: "easeOut" }}
+      >
+        Cyber Security
+      </motion.h1>
       <div className="about-cards">
-        <div className="about-card">
+        <motion.div
+          className="about-card"
+          variants={cardVariants}
+          initial="hidden"
+          animate="visible"
+          transition={{ delay: 0.4, duration: 0.6 }}
+        >
           <img
             src="https://barakahit.net/html/cybercafe/assets/img/icons/services-icon-3.svg"
-            alt="High Tech Gym"
+            alt="Cybersecurity Solutions"
           />
           <h2>Cybersecurity Solutions</h2>
           <p>
@@ -17,11 +50,17 @@ const Abou = () => {
             encryption, firewalls, and multi-layered defense systems, ensuring
             resilience against ever-evolving cyber threats.
           </p>
-        </div>
-        <div className="about-card">
+        </motion.div>
+        <motion.div
+          className="about-card"
+          variants={cardVariants}
+          initial="hidden"
+          animate="visible"
+          transition={{ delay: 0.6, duration: 0.6 }}
+        >
           <img
             src="https://barakahit.net/html/cybercafe/assets/img/icons/services-icon-4.svg"
-            alt="Qualified Instructor"
+            alt="Cybersecurity Experts"
           />
           <h2>Cybersecurity Experts</h2>
           <p>
@@ -30,11 +69,17 @@ const Abou = () => {
             hacking, understand advanced threat detection, or learn about the
             latest in cybersecurity technologies.
           </p>
-        </div>
-        <div className="about-card">
+        </motion.div>
+        <motion.div
+          className="about-card"
+          variants={cardVariants}
+          initial="hidden"
+          animate="visible"
+          transition={{ delay: 0.8, duration: 0.6 }}
+        >
           <img
             src="https://barakahit.net/html/cybercafe/assets/img/icons/services-icon-5.svg"
-            alt="Happy Community"
+            alt="Cybersecurity Community"
           />
           <h2>Cybersecurity Community</h2>
           <p>
@@ -43,9 +88,15 @@ const Abou = () => {
             strategies, and support in a collaborative environment, fostering
             innovation and vigilance against cyber attacks.
           </p>
-        </div>
+        </motion.div>
       </div>
-      <div className="about-pa">
+      <motion.div
+        className="about-pa"
+        variants={textVariants}
+        initial="hidden"
+        animate="visible"
+        transition={{ delay: 1, duration: 0.5, ease: "easeOut" }}
+      >
         <p>
           Welcome to the Cipher Club of Bennett, a premier platform dedicated to
           the world of cybersecurity. Our club is a hub for enthusiasts and
@@ -53,7 +104,7 @@ const Abou = () => {
           skills. Here, you'll discover a wealth of resources, from advanced
           workshops and seminars to collaborative projects and competitions.
         </p>
-      </div>
+      </motion.div>
     </div>
   );
 };

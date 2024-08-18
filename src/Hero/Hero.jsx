@@ -127,7 +127,7 @@ const Hero = () => {
           </div>
           <div className="righthero">
             <motion.img
-              src="https://barakahit.net/html/cybercafe/assets/img/home-font.png"
+              src="home.png"
               alt="Cyber Cafe"
               variants={imageVariants}
               initial="hidden"

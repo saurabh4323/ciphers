@@ -39,10 +39,7 @@ const Abou = () => {
           animate="visible"
           transition={{ delay: 0.4, duration: 0.6 }}
         >
-          <img
-            src="https://barakahit.net/html/cybercafe/assets/img/icons/services-icon-3.svg"
-            alt="Cybersecurity Solutions"
-          />
+          <img src="one.svg" alt="Cybersecurity Solutions" />
           <h2>Cybersecurity Solutions</h2>
           <p>
             Safeguard your digital landscape with cutting-edge security tools,
@@ -58,10 +55,7 @@ const Abou = () => {
           animate="visible"
           transition={{ delay: 0.6, duration: 0.6 }}
         >
-          <img
-            src="https://barakahit.net/html/cybercafe/assets/img/icons/services-icon-4.svg"
-            alt="Cybersecurity Experts"
-          />
+          <img src="sec.svg" alt="Cybersecurity Experts" />
           <h2>Cybersecurity Experts</h2>
           <p>
             Enhance your cybersecurity skills through our specialized workshops
@@ -77,10 +71,7 @@ const Abou = () => {
           animate="visible"
           transition={{ delay: 0.8, duration: 0.6 }}
         >
-          <img
-            src="https://barakahit.net/html/cybercafe/assets/img/icons/services-icon-5.svg"
-            alt="Cybersecurity Community"
-          />
+          <img src="three.svg" alt="Cybersecurity Community" />
           <h2>Cybersecurity Community</h2>
           <p>
             Join a thriving cybersecurity community where professionals and

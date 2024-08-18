@@ -109,7 +109,7 @@ const Hero = () => {
               and develop the skills necessary to protect our digital world.
             </motion.p>
             <a
-              href="https://www.instagram.com/cipher_bu/?hl=en"
+              href="https://linktr.ee/cipher1"
               target="_blank"
               rel="noopener noreferrer"
             >

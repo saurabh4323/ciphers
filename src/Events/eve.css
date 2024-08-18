@@ -48,7 +48,7 @@
 /* Corrected media query */
 @media (max-width: 600px) {
   .card img{
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 250px;
   }
 }

@@ -164,7 +164,7 @@
   }
   
   .righthero img {
-    width: 50%; /* Ensure image stays within its container */
+    width: 80%; /* Ensure image stays within its container */
     margin-left: -20px;
   }
 }

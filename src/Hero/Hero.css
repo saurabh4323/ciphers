@@ -144,7 +144,7 @@
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 35px;
     color: #ffffff;
-    font-weight: 500;
+    font-weight: 700;
   }
 
   .hemain {
@@ -164,7 +164,7 @@
   }
   
   .righthero img {
-    width: 80%; /* Ensure image stays within its container */
+    width: 50%; /* Ensure image stays within its container */
     margin-left: -20px;
   }
 }

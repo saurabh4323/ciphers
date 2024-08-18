@@ -35,12 +35,7 @@
     "position": "Management Head",
     "image": "mgr.jpg"
   },
-  {
-    "id": 14,
-    "name": "bbnnn",
-    "position": "Management  Co-Head",
-    "image": "https://via.placeholder.com/150"
-  },
+
   {
     "id": 6,
     "name": " Harshil Uttaradhi",
@@ -59,12 +54,7 @@
     "position": "Content Head",
     "image": "is.jpg"
   },
-  {
-    "id": 7,
-    "name": "David Martinez",
-    "position": "Content Co-Head",
-    "image": "https://via.placeholder.com/150"
-  },
+ 
   {
     "id": 8,
     "name": "Anmol Shrivastava",
@@ -89,17 +79,5 @@
     "name": "Luckychowdary",
     "position": "PR Co-Head",
     "image": "lu.jpg"
-  },
-  {
-    "id": 10,
-    "name": "Patricia Brown",
-    "position": "Design Head",
-    "image": "https://via.placeholder.com/150"
-  },
-  {
-    "id": 11,
-    "name": "Tom Clark",
-    "position": "Design Co-Head",
-    "image": "https://via.placeholder.com/150"
   }
 ]

@@ -1,0 +1,105 @@
+[
+  {
+    "id": 1,
+    "name": "Lalithaditya",
+    "position": "Vice Chair",
+    "image": "la.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Dhruv Maheshwari",
+    "position": "Chair",
+    "image": "image.png"
+  },
+  {
+    "id": 3,
+    "name": "Saqib  Zaidi",
+    "position": "General Secretary",
+    "image": "sa.png"
+  },
+  {
+    "id": 4,
+    "name": "Saurabh Singh",
+    "position": "Tech Head",
+    "image": "https://media.licdn.com/dms/image/v2/D5603AQF9_uw9E5z7Hg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1723652222663?e=1729123200&v=beta&t=Urrh_7TaMkDcSNoI2n82eqbyfzAwR4bb_qhIpSDnS_M"
+  },
+  {
+    "id": 5,
+    "name": "Dhruv Sharma",
+    "position": "Tech Co-Head",
+   "image": "Dh.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Kalash Harchandani",
+    "position": "Management Head",
+    "image": "mgr.jpg"
+  },
+  {
+    "id": 14,
+    "name": "bbnnn",
+    "position": "Management  Co-Head",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 6,
+    "name": " Harshil Uttaradhi",
+    "position": "Research Head",
+    "image": "re.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Astitva Kumar",
+    "position": "Research Co-Head",
+    "image": "as.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Ishita Soryan",
+    "position": "Content Head",
+    "image": "is.jpg"
+  },
+  {
+    "id": 7,
+    "name": "David Martinez",
+    "position": "Content Co-Head",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 8,
+    "name": "Anmol Shrivastava",
+    "position": "Multimedia Head",
+    "image": "mu.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Dhruv Gupta",
+    "position": "Multimedia Co-Head",
+    "image": "dhh.jpg"
+  },
+ 
+  {
+    "id": 12,
+    "name": "Hrehaan Ahuja",
+    "position": "PR Head",
+    "image": "li.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Luckychowdary",
+    "position": "PR Co-Head",
+    "image": "lu.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Patricia Brown",
+    "position": "Design Head",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 11,
+    "name": "Tom Clark",
+    "position": "Design Co-Head",
+    "image": "https://via.placeholder.com/150"
+  }
+]

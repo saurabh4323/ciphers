@@ -1,0 +1,99 @@
+.about-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+ 
+}
+
+.about-page h1 {
+  font-size: 28px;
+  margin-top: 50px;
+  text-decoration: underline #03c4ff dotted;
+  color: #03c4ff;
+  font-weight: 700;
+  font-style: italic;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.about-cards {
+  
+  gap: 30px;
+ display: flex;
+ width: 80%;
+}
+
+.about-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #03c4ff;
+  border-radius: 8px;
+  padding: 20px;
+
+  width: 100%; /* Increased width for the card */
+  transition: transform 0.3s, box-shadow 0.3s; /* Add transition for hover effect */
+}
+
+.about-card:hover {
+  transform: scale(1.05); /* Scale up on hover */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.about-card img {
+  border: 1px solid rgba(0, 0, 0, 0.347);
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 4px;
+  width: 60px;
+  height: 60px;
+}
+
+.about-card img:hover {
+  background-color: rgb(0, 0, 0) !important; /* Hover background color */
+}
+
+.about-card h2 {
+  font-weight: 700;
+  color: #000;
+  font-style: italic;
+  margin-top: 15px;
+}
+.about-card h2:hover{
+  color: #03c4ff;
+}
+
+.about-card p {
+  color: #999999;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.about-pa {
+  background-color: #fff;
+  color: #7e7b7b;
+  text-align: center !important;
+  width: 100%;
+  margin-top: 50px;
+  
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -25px;
+    gap: 10px;
+  }
+
+  .about-page h1 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+}

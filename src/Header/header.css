@@ -9,9 +9,12 @@
   
   margin-left: 5%;
   width: 100%;
-  color: aliceblue;
+  color: #fff;
 display: flex;
 gap: 20px;
+}
+.left:hover{
+  color: #03c4ff;
 }
 .left img{
   margin-top: 10px;
@@ -19,6 +22,7 @@ gap: 20px;
  
 }
 .rig{
+
   font-family: 'Kumbh Sans', sans-serif;
   display: flex;
   width: 40%;
@@ -28,5 +32,9 @@ gap: 20px;
 }
 .rig h4:hover{
   cursor: pointer;
-  color: #fd5a1b;
+  color: #03c4ff;
 }
+a{
+  color: aliceblue;
+  text-decoration: none;
+  }

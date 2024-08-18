@@ -36,7 +36,7 @@ const App = () => {
             <source src="hi.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-          {isMuted && <button onClick={handleUnmute}>Unmute</button>}
+          {isMuted && <button onClick={handleUnmute}></button>}
         </div>
       ) : (
         <div className="main-content">

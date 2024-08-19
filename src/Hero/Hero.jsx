@@ -114,6 +114,12 @@ const Hero = () => {
               rel="noopener noreferrer"
             >
               <motion.button
+                nion
+                ndnkdsdn
+                d
+                duuuuion
+                ion
+                insi
                 className="button-35"
                 whileHover={{
                   scale: 1.1,
@@ -121,9 +127,11 @@ const Hero = () => {
                 }}
                 transition={{ type: "spring", stiffness: 300 }}
               >
-                Follow Us
+                {" "}
+                dnjk nioon jio kuo mm io ion system Follow Us
               </motion.button>
-            </a>
+            </a>{" "}
+            hello buddy how are you will
           </div>
           <div className="righthero">
             <motion.img

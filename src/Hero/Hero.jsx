@@ -128,10 +128,9 @@ const Hero = () => {
                 transition={{ type: "spring", stiffness: 300 }}
               >
                 {" "}
-                dnjk nioon jio kuo mm io ion system Follow Us
+                Follow Us
               </motion.button>
             </a>{" "}
-            hello buddy how are you will
           </div>
           <div className="righthero">
             <motion.img

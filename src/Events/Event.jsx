@@ -16,7 +16,7 @@ const Event = () => {
             <img src="ev.png"></img>
           </div>
           <div className="card">
-            <img src="a.png"></img>
+            <img src="e.jpg"></img>
           </div>
         </div>
       </div>

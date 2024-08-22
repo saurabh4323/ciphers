@@ -41,7 +41,12 @@
     "position": "Management Co-Head",
     "image": "vi.png"
   },
-
+  {
+    "id": 15,
+    "name": "Suma Mahapatara",
+    "position": "Design Head",
+    "image": "s.png"
+  },
   {
     "id": 7,
     "name": " Harshil Uttaradhi",
@@ -54,6 +59,7 @@
     "position": "Research Co-Head",
     "image": "as.jpg"
   },
+
   {
     "id": 9,
     "name": "Ishita Soryan",
@@ -91,11 +97,5 @@
     "name": "Luckychowdary",
     "position": "PR Co-Head",
     "image": "lu.jpg"
-  },
-  {
-    "id": 15,
-    "name": "Suma Mahapatara",
-    "position": "Design Head",
-    "image": "s.png"
   }
 ]

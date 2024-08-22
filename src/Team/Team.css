@@ -99,9 +99,10 @@
     height: 180px;
   }
   .team-member img {
-    width: 55%;
-    height: 55%;
-    overflow: hidden;
+    width: 43%;
+    height: 50%;
+   
+    
     border-radius: 50%;
     margin-bottom: 15px;
     transition: filter 0.3s ease, transform 0.3s ease;

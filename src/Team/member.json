@@ -33,7 +33,7 @@
     "id": 6,
     "name": "Kalash Harchandani",
     "position": "Management Head",
-    "image": "mgr.jpg"
+    "image": "aa.jpg"
   },
   {
     "id": 15,
@@ -46,6 +46,12 @@
     "name": "Suma Mahapatara",
     "position": "Design Head",
     "image": "s.png"
+  },
+  {
+    "id": 16,
+    "name": "Sourabh Pal",
+    "position": "Design Co-Head",
+    "image": "xxx.jpg"
   },
   {
     "id": 7,

@@ -10,13 +10,13 @@ const Event = () => {
         <div className="col">
           <h1>Events Of Cipher</h1>
           <div className="card">
+            <img src="e.jpg"></img>
+          </div>
+          <div className="card">
             <img src="eve.png"></img>
           </div>
           <div className="card">
             <img src="ev.png"></img>
-          </div>
-          <div className="card">
-            <img src="e.jpg"></img>
           </div>
         </div>
       </div>

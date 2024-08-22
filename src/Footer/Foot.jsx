@@ -29,6 +29,18 @@ const Foot = () => {
             />
           </a>
         </div>
+        <div className="clg">
+          {" "}
+          <a href="" target="_blank" rel="noopener noreferrer">
+            <img src="scset.svg" alt="LinkedIn" />
+          </a>
+          <a href="" target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://www.bennett.edu.in/wp-content/uploads/2023/01/logo-1.webp"
+              alt="LinkedIn"
+            />
+          </a>
+        </div>
       </div>
     </footer>
   );

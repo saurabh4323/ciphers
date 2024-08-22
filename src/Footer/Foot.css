@@ -28,3 +28,15 @@
 .social-icons a:hover img {
   transform: scale(1.2);
 }
+.clg{
+  
+margin-top: 10px;
+  align-items: center;
+  width: 100%;
+  height:60px;
+}
+
+.clg img{
+ margin-left: 20px;
+  width: 150px;
+}

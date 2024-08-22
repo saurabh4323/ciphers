@@ -30,54 +30,72 @@
    "image": "Dh.jpg"
   },
   {
-    "id": 13,
+    "id": 6,
     "name": "Kalash Harchandani",
     "position": "Management Head",
     "image": "mgr.jpg"
   },
+  {
+    "id": 15,
+    "name": "Vriti Gupta",
+    "position": "Management Co-Head",
+    "image": "vi.png"
+  },
 
   {
-    "id": 6,
+    "id": 7,
     "name": " Harshil Uttaradhi",
     "position": "Research Head",
     "image": "re.jpg"
   },
   {
-    "id": 13,
+    "id": 8,
     "name": "Astitva Kumar",
     "position": "Research Co-Head",
     "image": "as.jpg"
   },
   {
-    "id": 15,
+    "id": 9,
     "name": "Ishita Soryan",
     "position": "Content Head",
     "image": "is.jpg"
   },
+  {
+    "id": 10,
+    "name": "Prayansh Sukhija",
+    "position": "Content Co-Head",
+    "image": "l.jpg"
+  },
  
   {
-    "id": 8,
+    "id": 11,
     "name": "Anmol Shrivastava",
     "position": "Multimedia Head",
     "image": "mu.jpg"
   },
   {
-    "id": 9,
+    "id": 12,
     "name": "Dhruv Gupta",
     "position": "Multimedia Co-Head",
     "image": "dhh.jpg"
   },
  
   {
-    "id": 12,
+    "id": 13,
     "name": "Hrehaan Ahuja",
     "position": "PR Head",
     "image": "li.jpg"
   },
   {
-    "id": 12,
+    "id": 14,
     "name": "Luckychowdary",
     "position": "PR Co-Head",
     "image": "lu.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Suma Mahapatara",
+    "position": "Design Head",
+    "image": "s.png"
   }
 ]

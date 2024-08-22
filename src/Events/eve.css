@@ -26,7 +26,8 @@
 }
 
 .card img{
-  width: 800px;
+  padding: 20px;
+  width: 600px;
   height: 600px;
 }
 

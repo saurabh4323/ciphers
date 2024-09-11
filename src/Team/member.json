@@ -8,7 +8,7 @@
   {
     "id": 2,
     "name": "Dhruv Maheshwari",
-    "position": "Chair",
+    "position": "Chairman",
     "image": "image.png"
   },
   {
@@ -27,14 +27,9 @@
     "id": 5,
     "name": "Dhruv Sharma",
     "position": "Tech Co-Head",
-   "image": "Dh.jpg"
+   "image": "poi.jpg"
   },
-  {
-    "id": 6,
-    "name": "Kalash Harchandani",
-    "position": "Management Head",
-    "image": "aaa.jpg"
-  },
+ 
   {
     "id": 15,
     "name": "Vriti Gupta",
@@ -84,6 +79,12 @@
     "name": "Anmol Shrivastava",
     "position": "Multimedia Head",
     "image": "mu.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Aryan Ghosle",
+    "position": "Multimedia co-Head",
+    "image": "ary.jpg"
   },
   {
     "id": 12,
